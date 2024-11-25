@@ -30,14 +30,14 @@ def check_scenario(test_name, new_steps, existing_scenarios):
     elif test_name not in existing_scenarios.keys():
         print(f"Test case name: {test_name} does not exist in the dictionary")
         if new_steps in existing_scenarios.values():
-            print(f"Duplicate scenario detected: Matches {test_name}.")
+            print(f"Duplicate steps detected: Matches {new_steps}.")
         else:
             steps_to_add = frozenset(new_steps)
             existing_scenarios.__setitem__(test_name, steps_to_add)
-            print(f"Test scenario: {test_name} already exists in the dictionary.")
+            print(f"Test scenario: {test_name} added to the dictionary.")
 
 """
 Example usage
 """
 new_steps = ["open browser", "navigate to page", "click login"]  # Same steps as Test Case 1
-check_scenario("Test Case 4", new_steps, dic_scenarios) # Output: Should indicate that it matches Test Case 1
+check_scenario("Test Case 5", new_steps, dic_scenarios) # Output: Should indicate that it matches Test Case 1
