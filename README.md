@@ -23,6 +23,7 @@ This training was broken down into 9 weeks plus a last week dedicated to the fin
 
 ### [Topic 10](topics/10_projects/main_building_a_project.md): Building a Test Automation Suite, utilizing both web and API testing
 
+
 ### [Miscellaneous](topics/miscellaneous/main_miscellaneous.md): Interesting topics for deep learning
 
 
