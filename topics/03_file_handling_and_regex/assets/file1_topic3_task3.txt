@@ -1,0 +1,2 @@
+File Handling
+Read the file and remove equal lines (if any).
